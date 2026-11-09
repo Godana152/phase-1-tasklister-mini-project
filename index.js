@@ -13,10 +13,10 @@ createTaskForm.addEventListener("submit",(event)=>{
 function buildTODo(task){
     console.log(task)
 // create new element and apend  its the content
-    const taskList= document.getElementById("task")
+    const taskList= document.getElementById("tasks")
 
     const li =document.createElement("li")
 
     li.textContent = task
-    taskList.append("li")
+    taskList.appendchild(li)
 }

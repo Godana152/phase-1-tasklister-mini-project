@@ -1,6 +1,8 @@
 // select form
 const createTaskForm = document.getElementById("create-task-form")
 
-createTaskForm.addEventListener("submit",()=>{
-    preventDefault()
+// handle form submission
+createTaskForm.addEventListener("submit",(event)=>{
+    event.preventDefault()
+
 })
